@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afrah Agency Uganda</title>
+    <style>
+        /*Modern Green Charity Theme*/
+        body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; line-height: 1.6;}
+        header{background-color: #2e7d32;color: white;padding: 20px;text-align: center;}
+        nav{background-color: #333;overflow: hidden;}
+        nav ul{list-style: none;margin: 0;padding: 0;}
+        nav li{float: left;}
+        nav li a{display: block;color: white;padding: 14px 20px;text-decoration: none;}
+        nav li a:hover{background-color: #45a049;}
+        .content{padding: 20px;max-width: 1000px;margin: auto;}
+        .donation-table{width: 100%;border-collapse: collapse;margin: 20px 0;}
+        .donation-table th .donation-table td {border: 1px aolid #ddd;padding: 12px;text-align: left;}
+        .donation-table th{background-color: #f4f4f4;}
+    </style>
+</head>
+<body>
+     <header>
+        <img src="Afrah Agency Uganda Logo .jpeg" alt="Afrah Agency Uganda Logo" width="120">
+        <div>
+            <h1 style="margin: 0;">Afrah Agency Uganda</h1>
+            <p style="margin: 0; font-style: italic;">Empowering Communities & Changing Lives</p>
+        </div>
+     </header>
+     <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#donate">Donate</a></li>
+        </ul>
+     </nav>
+     <div class="content">
+        <h2>Our Giving Community</h2>
+        <p>Afrah Agency is decided to supporting people across Uganda through organised charity and community support</p>
+        <h3>What We Distribute</h3>
+        <ul>
+            <li>Essential Goods 
+                <ul>
+                    <li>Food Supplies</li>
+                    <li>Clean Water</li>
+                </ul>
+            </li>
+            <li>Health & Education
+                <ul>
+                    <li>School Fees Support</li>
+                    <li>Medical Assistance</li>
+                </ul>
+            </li>
+        </ul>
+        <h3>Current Project Status</h3>
+        <table class="donation-table">
+            <caption>Current Distribution Overview</caption>
+            <thead>
+                <tr>
+                    <th>Region</th>
+                    <th>Item</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Central Uganda</td>
+                     <td>Food</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>Northern Uganda</td>
+                    <td>Education Kits</td>
+                    <td>Pending</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="donate">
+            <h3>How You Join Us</h3>
+            <form>
+                <label for="help-type">How would you like to contribute</label><br>
+                <select name="help-type" id="help-type">
+                    <option value="financial">Financial Donations</option>
+                     <option value="goods">Goods & Food</option>
+                    <option value="volunteer">Volunteer Time</option>
+                </select>
+                <br><br>
+                <input type="checkbox" id="confirm" required>
+                <label for="confirm">I want to receive updates from Afrah Agency Uganda</label>
+                <br><br>
+                <button type="submit">Submit Interest</button>
+            </form>
+        </div>
+     </div>
+</body>
+</html>
